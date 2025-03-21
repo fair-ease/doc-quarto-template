@@ -1,0 +1,76 @@
+[
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "Open Source License",
+    "section": "",
+    "text": "All of the original F-E products are published under MIT license and respective dependencies are addressed in the perspective repositories."
+  },
+  {
+    "objectID": "docs/references.html",
+    "href": "docs/references.html",
+    "title": "References",
+    "section": "",
+    "text": "References"
+  },
+  {
+    "objectID": "docs/get-started/intro.html",
+    "href": "docs/get-started/intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Introduction\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nReferences\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Catalog",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "docs/catalog/index.html",
+    "href": "docs/catalog/index.html",
+    "title": "Disambiguation for the catalogs",
+    "section": "",
+    "text": "Disambiguation for the catalogs",
+    "crumbs": [
+      "Catalog",
+      "Catalog"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "FAIR-EASE template",
+    "section": "",
+    "text": "FAIR EASE is a project"
+  },
+  {
+    "objectID": "docs/get-started/index.html",
+    "href": "docs/get-started/index.html",
+    "title": "Get started here",
+    "section": "",
+    "text": "Get started here",
+    "crumbs": [
+      "Catalog",
+      "Introduction",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "docs/get-started/summary.html",
+    "href": "docs/get-started/summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Summary\nIn summary, this book has no content whatsoever.",
+    "crumbs": [
+      "Catalog",
+      "Introduction",
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to FAIR-EASE documentation",
+    "section": "",
+    "text": "Welcome to FAIR-EASE documentation\nWe fight the unFAIR"
+  }
+]
