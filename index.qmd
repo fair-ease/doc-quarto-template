@@ -1,0 +1,13 @@
+---
+pagetitle: "FAIR-EASE"
+section-divs: false
+toc: false
+editor: source
+description: | 
+  FAIR-EASE is here for you
+hide-description: true
+---
+
+# Welcome to FAIR-EASE documentation
+
+We fight the unFAIR

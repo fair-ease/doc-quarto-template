@@ -1,0 +1,88 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "FAIR-EASE template"
+  page-footer:
+    left: |
+      Proudly supported by
+      [![](https://posit.co/wp-content/uploads/2024/06/Posit-Logos-2024_horiz-full-color.svg){fig-alt="Posit" width=65px}](https://posit.co)
+    center:
+      - text: "About"
+        href: about.qmd
+      - text: "License"
+        href: license.md
+    right:
+      - icon: LinkedIn
+        href: https://www.linkedin.com/company/fair-ease/
+        aria-label: Quarto Twitter
+      - icon: github
+        href: https://github.com/fair-ease
+        aria-label: FAIR-EASE GitHub
+  navbar:
+    background: light
+    logo: logo.png
+    logo-alt: "F-E logo."
+    title: false
+    collapse-below: lg
+    left:
+      - text: "Overview"
+        href: index.qmd
+      - text: "Catalog"
+        href: docs/catalog/index.qmd
+      - text: "Help"
+        menu:
+          - text: "Report a Bug"
+            icon: "bug"
+            href: "https://github.com/fair-ease"
+    tools:
+      - icon: LinkedIn
+        href: https://www.linkedin.com/company/fair-ease/
+        aria-label: Quarto Twitter
+      - icon: github
+        href: https://github.com/fair-ease
+        aria-label: FAIR-EASE GitHub
+  sidebar:
+    - id: guide
+      title: "Get Started"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - section: "Introduction"
+          href: docs/get-started/intro.qmd
+          contents:
+            - text: "Overview"
+              href: docs/get-started/index.qmd
+            - text: "Introduction"
+              href: docs/get-started/intro.qmd
+            - text: "Summary"
+              href: docs/get-started/summary.qmd
+        - section: "Catalog"
+          contents:
+            - text: "Catalog"
+              href: docs/catalog/index.qmd
+            - text: "Data"
+              href: docs/catalog/data.qmd
+            - text: "Software"
+              href: docs/catalog/software.qmd
+            - text: "Services"
+              href: docs/catalog/services.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    toc: true
+    theme:
+      - cosmo
+      - brand
+    code-copy: true
+    code-overflow: wrap
+    # css: styles.css
+    # include-after-body: js.html
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
