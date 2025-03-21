@@ -1,0 +1,1 @@
+Sitemap: https://fair-ease.github.io/doc-quarto-template/sitemap.xml
